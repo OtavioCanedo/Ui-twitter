@@ -8,9 +8,9 @@ import './Timeline.css'
 export function Timeline() {
   const [newTweet, setNewTweet] = useState('')
   const [tweets, setTweets] = useState([
-    'O projeto foi feito para simular a interface do Twitter, utilizando React, Typescript, ViteJS, React-Router-DOM, CSS3 e Phosphor-React',
-    'Após realizar o quis da Rocketseat, eles liberaram essa Masterclass para especializar no React.',
-    'Na Masterclass aprendi alguns conceitos do React como Compilers & Bundlers, Typescript, Contexto, Rotas Encadeadas e fluxo de renderização'
+    'O projeto foi feito para simular a interface do Twitter, utilizando React, Typescript, ViteJS, React-Router-DOM, CSS3 e Phosphor-React.',
+    'Após realizar o quiz da Rocketseat, eles liberaram essa Masterclass para especializar no React.',
+    'Na Masterclass aprendi alguns conceitos do React como Compilers & Bundlers, Typescript, Contexto, Rotas Encadeadas e fluxo de renderização.'
   ])
 
   function createNewTweet(e: FormEvent) {

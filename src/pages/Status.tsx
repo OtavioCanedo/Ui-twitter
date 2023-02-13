@@ -9,7 +9,7 @@ import './Status.css'
 export function Status() {
   const [newAnswer, setNewAnswer] = useState('')
   const [answers, setAnswers] = useState([
-    'Quem tiver interesse o código está disponível no Github',
+    'Quem tiver interesse o código está disponível no Github.',
     'O projeto também está responsivo, e ao digitar algo no campo de Tweet e enviar, aparece o Tweet na tela.'
   ])
 
